@@ -1,2 +1,2 @@
-# Atividade.QI.-Nicole-Scheffer
-Desenvolvimento-Web-I
+# Desenvolvimento Web I
+Nicole Nasicmento Scheffer - Atividades QI

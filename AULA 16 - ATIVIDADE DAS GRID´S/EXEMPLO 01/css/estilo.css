@@ -1,0 +1,47 @@
+.ciano,
+.vermelho,
+.azul,
+.amarelo,
+.roxo,
+.verde,
+.laranja,
+.turquesa,
+.marrom{
+    height: 200px;
+}
+
+.ciano {
+    background-color: aqua;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+.roxo {
+    background-color: purple;
+}
+
+.verde {
+    background-color: green;
+}
+
+.laranja {
+    background-color: orange;
+}
+
+.turquesa {
+    background-color: aquamarine;
+}
+
+.marrom {
+    background-color: brown;
+}

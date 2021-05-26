@@ -1,0 +1,73 @@
+ .row, .col{
+	border: double;
+	border-color: blue;
+	margin-top: 2px;
+	
+}
+img{
+	border-collapse: 12px;
+	margin-bottom: 3px;
+	margin-top: 5px;
+}
+.jumbotron {
+  margin-bottom: 0;
+  font-family: 'Pattaya', sans-serif;
+  text-align: center;
+  background-color:#ADD8E6;
+}
+.minhaimagem{
+  width: 100%;
+}
+.rodape{
+  height: 50px;
+  background-color: #222;
+  color: white; 
+  text-align: center;
+  line-height: 50px;
+}
+img{
+	margin-top: 10px;
+
+}
+h2{
+	color:black;
+	text-align:center;
+}
+
+
+
+ul {
+    list-style:none;
+}
+li {
+    width: 100px;
+    height:36px;
+    line-height:36px;
+    text-align: center;
+    display:inline-block;
+}
+li a:hover {
+    background-color:#00ff00;
+	color: blue;
+}
+
+
+img { 
+filter: blur(medida CSS);
+ }
+
+
+.a{
+	width: 100%;
+	margin-top: 12px;
+}
+
+body {
+background-color: rgb(175,238,238);
+}
+container{
+	color:blue;
+}
+header{
+	color:blue;
+}

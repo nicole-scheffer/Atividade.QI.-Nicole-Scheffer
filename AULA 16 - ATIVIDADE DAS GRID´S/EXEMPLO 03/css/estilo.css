@@ -1,0 +1,25 @@
+.ciano{
+    height: 200px;
+}
+
+.azul,
+.vermelho,
+.roxo{
+	height: 400px;
+}
+
+.ciano{
+	background-color: aqua;
+}
+
+.azul{
+	background-color: yellow;
+}
+
+.vermelho{
+	background-color: blue;
+}
+
+.roxo{
+	background-color: purple;
+}

@@ -1,0 +1,28 @@
+ .rosa,
+ .roxo{
+    height: 200px;
+}
+
+.azul,
+.vermelho{
+	height: 200px;
+}
+
+.rosa{
+    background-color: pink;
+}
+
+.azul{
+	background-color: aqua;
+}
+
+.vermelho{
+	background-color: purple;
+}
+
+.roxo{
+	background-color: royalblue;
+}
+
+
+ 

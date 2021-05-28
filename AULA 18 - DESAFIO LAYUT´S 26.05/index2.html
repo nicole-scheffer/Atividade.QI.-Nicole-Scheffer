@@ -1,0 +1,106 @@
+ <!Doctype html>
+<html>
+	<head>
+	<title>Desafio Layout´s 26.05</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/estilo2.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+	</head>
+	
+<body>
+
+	<div class="main">
+		<header>
+			<h1>Medicina</h1>
+		<div class="container"><img src="https://i.pinimg.com/originals/8e/3f/38/8e3f385d9d4d1126ef445042793e39ad.jpg"></div>
+		</header>
+		<br>
+		<br>
+		
+		<div class="navbar" >
+			<button type="button" class="btn btn-light">Home</button>
+			<button type="button" class="btn btn-light">Cursos</button>
+			<button type="button" class="btn btn-light">Áreas</button>
+			<button type="button" class="btn btn-light">Contatos</button>
+		</div>	
+		
+		<br>
+		<br>
+		
+		<div class="row">
+		<div class="side">
+			<h2 style="color:white;">Medicina</h2>
+			<p>A medicina é uma das muitas áreas do conhecimento ligada à manutenção e restauração da saúde, com mais de 55 especialidades.</p>
+			<p>Ela trabalha, num sentido amplo, com a prevenção e cura das doenças humanas e animais num contexto médico.</p>
+            <p>Ações de saúde pública e ambiental, incluindo a saúde animal, promoção, prevenção, controle, erradicação e tratamento das doenças, traumatismos ou qualquer outro agravo à integridade e bem-estar animais, além do controlo de sanidade dos produtos e subprodutos de origem animal para o consumo humano e animal compreendem a área da medicina da responsabilidade do profissional de saúde médico veterinário.</p>
+		<div class="fakeimg" style="height:400px; margin-left: 60px"><img src="img/medicina.jpg"/></div>
+	
+			<h2 style="color:white;">Clínica Médica</h2>
+			<p>O médico generalista deve ganhar cada vez mais espaço, uma vez que ele cuida da atenção primária aos pacientes.</p>
+			<p>Com o avanço tecnológico, tendem a ter uma demanda crescente com a possibilidade de atendimento por meio da telemedicina e o acompanhamento remoto com o uso de diferentes dispositivos, podendo contribuir ainda para a prevenção de doenças.</p>
+		<div class="fakeimg" style="height:400px; margin-left: 60px" ><img src="img/clinicamédica.jpg"/></div>
+		
+			<h2 style="color:white;">Cirurgia</h2>
+			<p>A cirurgia é uma das áreas da medicina que mais devem se beneficiar do desenvolvimento tecnológico.</p>
+			<p>Novos procedimentos, além de cirurgias robóticas e com o uso de inteligência artificial e modernos equipamentos, podem elevar a precisão dos cirurgiões, contribuindo para o destaque desses profissionais.</p>
+		<div class="fakeimg" style="height:400px; margin-left: 60px" ><img src="img/medicinacirurgia.jpg"/></div>
+		
+		<h2 style="color:white;">Neurocirurgia</h2>
+			<p>A neurocirurgia tem uma alta demanda e ainda conta com poucos profissionais. Além disso, é bem remunerado por realizar procedimentos de alta complexidade e grande risco para os pacientes.</p>
+			<p>O neurocirurgião pode atuar em hospitais e clínicas particulares e públicas. Atende casos relacionados ao sistema nervoso, como câncer, traumas na cabeça e na coluna, e na reparação de danos nos nervos e na região da medula.</p>
+		<div class="fakeimg" style="height:400px; margin-left: 60px" ><img src="img/neurocirurgiamed.jpg"/></div>
+		
+		<br>
+		<br>
+		
+	<h2 style="color:white;">Algumas Imagens</h2>
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  
+  <div class="carousel-inner" align=center>
+    <div class="carousel-item active">
+      <img class="d-block w-30" src="img/uniformes.jpg" alt="Uniformes">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-30" src="img/anatomia.jpg" alt="Anatomia">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-30" src="img/estetoscópio.jpg" alt="Estetoscópio">
+    </div>
+	 <div class="carousel-item">
+      <img class="d-block w-30" src="img/simbologia.jpg" alt="Símbolo">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+<br>
+
+		<div class="rodape">
+		<footer class="rodape">
+			<h1>Nicole Scheffer</h1>
+		</footer>
+		</div>
+		</div>
+		
+		
+</body>
+</html>

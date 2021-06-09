@@ -1,0 +1,52 @@
+body {
+	background:#ccc;
+	font-family: 'PT Sans', sans-serif;
+	font-size:1em;
+}
+
+section {
+	width:auto;
+	margin:auto;
+}
+
+nav {
+	height:250px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+header {
+	padding-top:2%;
+	background:	#B22222;
+	color:#000;
+	height:100px;
+	font-size:25px;
+	text-align:center;
+}
+	
+main {
+	text-align:center;
+	width:100%;
+}
+
+article {
+	width:100%;
+	background:#ccc;
+}
+
+.titulo {
+	font-family: 'Lora', serif;
+}
+
+.img-fluid {
+	height:150px;
+	width:300px;
+}
+
+@media screen and (max-width:480px) {
+	nav {background-image:none;}
+}
+
+@media screen and (max-width:768px) {
+	nav {background-image:none;}
+}

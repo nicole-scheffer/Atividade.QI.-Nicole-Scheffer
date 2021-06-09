@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<link href="css/estilo.css" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap"  rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap"  rel="stylesheet">	
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap"  rel="stylesheet">
+
+	<style type="text/css">
+		.formato {
+			background:#ccc;
+			color:#000;
+			font-size:15px;
+			text-align:justify;
+			display:block;
+			width:80%;
+			padding:2%;
+		}	
+	</style>
+
+    <title>Ativida Final N1</title>
+  </head>
+  
+  <body>
+	<section>
+		<nav class="navbar navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">
+			<h3>Tecnologias para Desenvolvimento Web</h3>
+			</a>
+		</nav>
+		
+
+		<div class="container">
+		<div class="row justify-content-md-center">
+		<div class="col-md">
+			<h3 style="align-text:center;">O que é?</h3>
+			O desenvolvimento web é a área da tecnologia voltada à construção de sites, aplicativos, softwares, bancos de dados e quaisquer outras ferramentas que, de certa forma, constroem a internet como a conhecemos hoje. 
+			</div>
+		<div class="col-md">
+			<h3 style="align-text:center;">Para que serve?</h3>
+			Construção de sites, aplicativos, softwares, bancos de dados e quaisquer outras ferramentas que, de certa forma, constroem a internet como a conhecemos hoje.
+		</div>
+		<div class="col-md">
+			<h3 style="align-text:center;">7 tecnologias mais buscadas em profissionais de TI</h3>
+			1º O Campeão: JavaScript <br>
+            2º O Vice: HTML (e CSS) <br>
+            3º Lugar: Java para Android <br>
+            4º Lugar: Java <br>
+            5º Lugar: PHP <br>
+            6º Lugar: Python <br>
+            7º Lugar: Ruby <br>
+		</div>
+		
+	</div>
+	</div>
+	
+		<header>
+		Tenha cuidado quando for fazer sua Landing Page
+		<hr style="background:#000; height:2px;">
+		</header>
+		
+		<main>
+			<div class="texto" style="background:#363636; color:#fff; text-align:justify; padding:2%;">
+			<h2 class="titulo1" style="text-align:center;">Algumas das linguagens usadas</h2>
+			<div class="row">
+			<div class="col">
+			JavaScript e Python <br>
+			Java e C# <br>
+			PHP e C++ <br> 
+			TypeScript e C <br> 
+			Ruby e Go <br>
+			</div>
+			
+			<div class="col" style="text-align:center;">
+			<img src="img/linguagens-de-programacao.jpg" class="img-fluid" alt="Linguagens de Programação" title="Linguagens de Programação" width="250px;" height="200px;">
+			</div>
+		</div>
+	</div>
+	
+	
+			<div class="texto" style="background:#000; color:#fff; text-align:justify;">
+			<h2 class="titulo1" style="text-align:center;">Quem pode utilizar</h2>
+			<div class="row">
+			<div class="col" style="text-align:center;">
+			<img src="img/programação.jpg" class="img-fluid" alt="Usuários" title="Usuários" width="250px;" height="200px;">
+			</div>
+			<div class="col">
+			Programadores, desenvolvedor de sites e jogos etc... 
+			</div>
+		</div>
+	</div>
+			
+	
+			<div class="texto" style="background:#363636; color:#fff; text-align:justify; padding:2%;">
+			<h2 class="titulo1" style="text-align:center;">Deixe sua opinião sobre as informações passadas</h2>
+			<div class="row">
+			<div class="col">
+			Sinta-se a vontade para dar sua opinião ou até mesmo uma sugestão, desde já agradecemos!
+			<input type="text" id="Opinião" name="Opinião" class="form-control" required placeholder="Digite sua opinião">
+		
+		<script>
+				function alert {
+					var valueCadastro = document.getElementById("Opinião").value;
+					alert ("Bem vindo(a) " + valueCadastro);
+				}
+			</script>
+			</div>
+			
+			<div class="col">
+			<img src="img/web.jpg" class="img-fluid" alt="Web" title="Web" width="250px;" height="200px;">
+			</div>
+			</div>
+			</div>
+		</main>
+		
+		<article>
+		
+		<div class="container" style="width:50%; border-radius:0.5rem; border:solid 1px; padding:2%;">
+			<form name="Cadastro da pessoa" method="get">
+				<legend>Cadastre-se para receber mais informações!</legend>
+				<hr>
+				
+				<label for="Cadastro">Nome completo</label>
+				<input type="text" id="Cadastro" name="Cadastro" class="form-control" required placeholder="Digite o seu nome">
+				
+				<label for="Email">Endereço de E-mail</label>
+				<input type="text" id="email" name="email" class="form-control" required placeholder="Digite seu E-mail">
+				
+				<hr>
+				<input type="submit" name="botao" id="idBotao" class="btn btn-dark" onclick="alert();" value="Enviar">
+				<input type="reset" class="btn btn-light" value="Limpar">
+			</form>
+		</div>
+		
+			<script>
+				function alert {
+					var valueCadastro = document.getElementById("Cadastro").value;
+					alert ("Bem vindo(a) " + valueCadastro);
+				}
+			</script>
+		</article>
+	</section>
+    
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
